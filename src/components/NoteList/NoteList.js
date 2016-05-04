@@ -1,3 +1,5 @@
+import styles from './noteListStyles';
+
 var React = require('react-native');
 var {
   StyleSheet,
@@ -31,16 +33,5 @@ class NoteList extends React.Component {
       )
   }
 }
-
-var styles = StyleSheet.create({
-  rowStyle: {
-    borderBottomColor: '#9E7CE3',
-    borderBottomWidth: 1,
-    padding: 20
-  },
-  rowText: {
-    fontWeight: '600'
-  }
-});
 
 export default NoteList;
